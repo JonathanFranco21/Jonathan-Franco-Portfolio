@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(0deg, darkblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, p, h2 {
+  color: white;
+  font-family: Arial;
+  text-align: center;   
+}
+
+header {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+img {
+  height: 20px;
+  position: relative;
+  top: 7px;
+  padding: 2px;
+  filter: invert(1);
+}
+
+p.header {
+  margin-top: 50px;
+}
+
+a, a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+button {
+  background-color: blue;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+
+button a {
+  text-decoration: none;
+  position: relative;
+  bottom: 25px;
+}
+
+button a:visited {
+  color: white;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    height: 40px;
+    top: 15px;
+  }
+}

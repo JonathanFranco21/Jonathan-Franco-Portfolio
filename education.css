@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(0deg, darkblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, p, h2 {
+  color: white;
+  font-family: Arial;
+  text-align: center;   
+}
+
+header {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 30px 20px auto;
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+img {
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+button {
+  background-color: blue;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+
+button a {
+  text-decoration: none;
+  position: relative;
+  bottom: 25px;
+}
+
+button a:visited {
+  color: white;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  img {
+    height: 600px;
+  }
+}

@@ -1,0 +1,90 @@
+body {
+  background-image: linear-gradient(0deg, darkblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, p, h2 {
+  color: white;
+  font-family: Arial;
+  text-align: center;   
+}
+
+header {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+p.programmingLanguageParagraph {
+  margin: 30px 20px auto;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+div.programmingLanguage {
+  display: inline-block;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px 0 auto;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+button {
+  background-color: blue;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+
+button a {
+  text-decoration: none;
+  position: relative;
+  bottom: 25px;
+}
+
+button a:visited {
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+  p.programmingLanguageParagraph {
+    margin: 20px 100px auto;
+  }
+
+  div.programmingLanguage {
+    width: 49%;
+  }
+
+  div.even {
+    width: 100%;
+  }
+
+  div.programmingLanguage.xcode , 
+  div.programmingLanguage.chatgtp {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  div.programmingLanguage, 
+  div.programmingLanguage.chatgtp {
+    width: 33%;
+  }
+
+  div.programmingLanguage.matlab {
+    width: 100%;
+  }
+}

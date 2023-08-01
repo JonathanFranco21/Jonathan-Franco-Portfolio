@@ -1,0 +1,97 @@
+body {
+  background-image: linear-gradient(0deg, darkblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, p, a {
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+a:visted {
+  color: white;
+}
+
+header {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+p.experienceParagraph {
+  margin: 20px auto;
+}
+
+div.experience {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px 0 auto;
+  text-align: center;
+}
+
+img {
+  display: flex; 
+  margin: 0 auto;
+}
+
+img.bourns {
+  width: 280px;   
+}
+
+img.saddleback {
+  width: 250px;
+}
+
+
+button {
+  background-color: blue;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  p.experienceParagraph {
+    margin: 20px 100px auto;
+  }
+
+  div.experience {
+    flex-direction: row;
+  }
+
+  img.bourns {
+    height: 40px; 
+    margin-top: 100px;
+    margin-left: 50px;  
+  }
+  
+  img.saddleback {
+    height: 90px;
+    margin-top: 100px;
+    margin-left: 50px;  
+  }
+}
+
+@media screen and (min-width: 800px) {
+  img.bourns {
+    height: 40px; 
+    margin-top: 50px;
+    margin-left: 50px;  
+  }
+  
+  img.saddleback {
+    height: 90px;
+    margin-top: 50px;
+    margin-left: 50px;  
+  }
+}

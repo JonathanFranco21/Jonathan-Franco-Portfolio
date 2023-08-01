@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(0deg, darkblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, p, h2, a {
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+a:visted {
+  color: white;
+}
+
+header {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+p.projectParagraph {
+  margin: 20px auto;
+}
+
+div.project {
+  display: inline-block;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px 0 auto;
+  text-align: center;
+}
+
+div.project:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+object, img {
+  display: flex;
+  margin: 0 auto;  
+  border-radius: 10px;
+}
+
+object {
+  height: 217px;
+  width: 280px;
+}
+
+object.newer {
+  height: 197px;
+}
+
+object.udemy {
+  height: 208px;
+}
+
+img {
+  height: 200px;
+}
+
+button {
+  background-color: blue;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  p.projectParagraph {
+    margin: 20px 100px auto;
+  }
+
+  div.project {
+    width: 49%;
+  }
+
+  div.project.peaches,
+  div.project.manga {
+    width: 100%;
+  }
+}
