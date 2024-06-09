@@ -45,6 +45,10 @@ img.saddleback {
   width: 250px;
 }
 
+img.target {
+  height: 200px;
+
+}
 
 button {
   background-color: blue;
@@ -79,6 +83,10 @@ button a {
     height: 90px;
     margin-top: 100px;
     margin-left: 50px;  
+  }
+
+  img.target {
+    margin-left: 80pt;
   }
 }
 
