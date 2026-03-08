@@ -47,7 +47,10 @@ img.saddleback {
 
 img.target {
   height: 200px;
+}
 
+img.marketsource {
+  height: 50px;
 }
 
 button {
