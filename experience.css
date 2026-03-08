@@ -41,13 +41,16 @@ img.bourns {
   width: 280px;   
 }
 
-img.saddleback,
-img.marketsource {
+img.saddleback {
   width: 250px;
 }
 
 img.target {
   height: 200px;
+}
+
+img.marketsource {
+  width: 100px;
 }
 
 button {
